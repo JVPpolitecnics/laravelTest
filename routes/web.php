@@ -40,4 +40,4 @@ Route::get('/cursos', function () {
     $curso3 = new Curs(3, "DAM2B", "Desenvolupament Aplicacions Web de segon matí B");
 $cursos = [$curso1,  $curso2, $curso3];
 return view('curso.index', compact('cursos'));
-})->name('curso');
+})->name('curs');
